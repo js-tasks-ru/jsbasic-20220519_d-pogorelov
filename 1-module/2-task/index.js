@@ -19,6 +19,6 @@ function sayHello() {
   if (isValid(userName)) {
     print(`Welcome back, ${userName}!`);
   } else {
-    print('Некорректное имя');
+    print('Некорректное имя')
   }
 }
