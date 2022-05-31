@@ -1,5 +1,5 @@
 let calculator = {
-  // ваш код...
+  // ваш код
   a: null,
   b: null,
   read: function (a, b) {
@@ -14,4 +14,5 @@ let calculator = {
   }
 };
 
-window.calculator = calculator;
+// НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
+window.calculator = calculator; // делает ваш калькулятор доступным глобально
