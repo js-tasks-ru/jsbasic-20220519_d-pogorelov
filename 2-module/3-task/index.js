@@ -1,5 +1,5 @@
 let calculator = {
-// ваш код...
+  // ваш код...
   a: null,
   b: null,
   read: function (a, b) {
