@@ -1,4 +1,5 @@
 let calculator = {
+// ваш код...
   a: null,
   b: null,
   read: function (a, b) {
@@ -13,3 +14,4 @@ let calculator = {
   }
 };
 
+window.calculator = calculator;
