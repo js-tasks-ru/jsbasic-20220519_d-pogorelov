@@ -9,6 +9,7 @@ let salaries = {
   month: 'December',
   currency: 'USD',
   isPayed: false
+
 }
 ```
 
