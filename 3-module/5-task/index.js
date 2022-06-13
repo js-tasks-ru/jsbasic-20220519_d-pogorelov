@@ -1,4 +1,5 @@
 function getMinMax(str) {
+  // ваш код...
   const nums = str
     .split(" ")
     .filter(value => isFinite(value))

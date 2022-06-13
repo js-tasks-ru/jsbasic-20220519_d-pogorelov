@@ -1,16 +1,13 @@
 let arr = [5, 3, 8, 1];
-
-// function filterRange(arr, a, b) {
-//   return arr.filter(item => (a <= item && item <= b));
-// }
 function filterRange(arr, a, b) {
+  // ваш код...
   let arr1 = [];
   arr.forEach(element => {
     if (a <= element && element <= b) {
       arr1.push(element)
 
     }
-  })
+  });
   return arr1;
 }
 

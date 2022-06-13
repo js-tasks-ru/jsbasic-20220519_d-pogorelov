@@ -1,4 +1,5 @@
 function camelize(str) {
+  // ваш код...
   return str
     .split('-')
     .map(
